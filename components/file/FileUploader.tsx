@@ -7,7 +7,6 @@ import FilesTable from "./FilesTable";
 import { useEffect, useRef, useState } from "react";
 import loadFfmpeg from "@/lib/utils";
 import { FFmpeg } from "@ffmpeg/ffmpeg";
-import { AlertCircleIcon } from "lucide-react";
 
 export default function FileUploader() {
   const maxSize = 10 * 1024 * 1024; // 10MB default

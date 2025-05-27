@@ -1,8 +1,7 @@
 import { FileIcon, UploadIcon } from "lucide-react";
-import React, { DragEvent, InputHTMLAttributes, useEffect } from "react";
+import React, { DragEvent, InputHTMLAttributes } from "react";
 import { Button } from "../ui/button";
 import { FileWithPreview, formatBytes } from "@/hooks/use-file-upload";
-import loadFfmpeg from "@/lib/utils";
 
 interface DropAreaProps {
   handleDragEnter: (e: DragEvent<HTMLElement>) => void;
@@ -33,13 +32,6 @@ export default function DropArea({
   maxFiles,
   openFileDialog,
 }: DropAreaProps) {
-
-  useEffect(() => {
-    loadFfmpeg().then((ffmpeg) => {
-      // ffmpegRef.current = ffmpeg
-      // setIsLoaded(true)
-    })
-  }, [])
 
   return (
     <div
