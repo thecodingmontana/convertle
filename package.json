@@ -1,7 +1,31 @@
 {
-  "name": "my-app",
+  "name": "convertle",
   "version": "0.1.0",
   "private": true,
+  "description": "Convert anything images, audio, videos with zero limits. Get started and supercharge your content.",
+  "keywords": [
+    "convertle",
+    "typescript",
+    "nextjs",
+    "tailwindcss",
+    "ffmpeg",
+    "shadcn"
+  ],
+  "homepage": "https://github.com/thecodingmontana/convertle#readme",
+  "bugs": {
+    "url": "https://github.com/thecodingmontana/convertle/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecodingmontana/convertle.git"
+  },
+  "license": "MIT",
+  "author": "thecodingmontana",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
